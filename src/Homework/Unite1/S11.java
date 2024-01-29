@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Unite1;
 // Population Projection
 // The U.S. Census Bureau projects population based on the following assumptions:
 // - One birth every 7 seconds

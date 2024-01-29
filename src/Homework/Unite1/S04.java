@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Unite1;
 //(Print a table)
 // Write a program that displays the following table:
 // a a^2 a^3

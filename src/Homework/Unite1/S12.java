@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Unite1;
 // Average Speed in Kilometers
 // Assume a runner runs 24 miles in 1 hour, 40 minutes, and 35 seconds.
 // Write a Java program that displays the average speed in kilometers per hour.

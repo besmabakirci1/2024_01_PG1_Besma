@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Unite1;
 //(Display a pattern)
 // Write a program that displays the following pattern:
 //   J   A  V     V  A
