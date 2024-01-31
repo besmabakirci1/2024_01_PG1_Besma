@@ -13,9 +13,13 @@ package Homeworks.Unite1;
 // must be a number with a decimal point. For example, 5.0 / 4 is 1.25 and 10 / 4.0 is 2.5.
 public class S11 {
     public static void main(String[] args) {
-        double current_population = 312_032_486.0;
-        for (int i =1; i <=5; i++);
-        current_population= current_population +(365 * 24 * 60 * 60 / 7) - (365 * 24 * 60 * 60 / 13) + (365 * 24 * 60 * 60 / 45);
-        System.out.println("Year "+args +"Population"+ current_population);
+        double current_population = 312032486;
+        double yearly = (365d * 24 * 60 * 60 / 7) - (365d * 24 * 60 * 60 / 13) + (365d * 24 * 60 * 60 / 45);
+        System.out.printf("year1: %.1f\n", (current_population + yearly));
+        System.out.printf("year2: %.1f\n", (current_population + (2 * yearly)));
+        System.out.printf("year3: %.1f\n", (current_population + (3 * yearly)));
+        System.out.printf("year4: %.1f\n", (current_population + (4 * yearly)));
+        System.out.printf("year5: %.1f\n", (current_population + (5 * yearly)));
+        System.out.println(yearly);
     }
 }
