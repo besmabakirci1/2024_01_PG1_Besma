@@ -11,9 +11,20 @@ import java.util.Scanner;
 //Here is a sample run:
 // Enter a degree in Celsius: 43-> "Enter"
 //43 Celsius is 109.4 Fahrenheit
+
+import java.util.Scanner;
 public class S01 {
     public static void main(String[] args) {
-        System.out.println();
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Please enter the celsius value: ");
+        double Celsius = input.nextDouble();
+        input.close();
+        double Fahrenheit = (9.0 / 5) * Celsius + 32;
+
+        System.out.println("Celsius: " + Celsius );
+        System.out.println("Fahrenheit: " + Fahrenheit);
 
     }
 }
+
