@@ -1,4 +1,7 @@
 package Homeworks.Unite2;
+
+import java.util.Scanner;
+
 //(Convert Celsius to Fahrenheit)
 //Write a program that reads a Celsius degree in a double value from the console,
 // then converts it to Fahrenheit and displays the result.
