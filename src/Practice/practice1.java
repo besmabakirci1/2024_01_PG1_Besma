@@ -33,7 +33,7 @@ public class practice1 {
         double Average_Years_of_Human_life = +70 * year;
         float Sleeping_time_in_USA = (28 * year) + (2 * month) + (5 * day) ;
         float population_USA = 334_914_895 * Sleeping_time_in_USA;
-        System.out.printf(" The total is: %.2f\n ", Average_Years_of_Human_life);
+        System.out.printf(" The total is: %.2 f\n ", Average_Years_of_Human_life);
         System.out.printf(" The Total Screen Time On Socaial Media USA: %d \n ",Screen_time_on_Socaial_Media_USA );
         System.out.printf("spent time by sleeping %2f",population_USA);
         System.out.print(" Be careful that it's much time please invest it \n ");
