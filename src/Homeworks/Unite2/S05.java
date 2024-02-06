@@ -16,3 +16,4 @@ public class S05 {
         System.out.println();
     }
 }
+//allah sabır versin
