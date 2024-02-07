@@ -19,6 +19,7 @@ public class S09 {
         double end_velocity = input.nextDouble();
         System.out.println("Please enter the time: ");
         double time = input.nextDouble();
+
         double average_acceleration = (end_velocity - start_velocity) / time;
         System.out.println("The average acceleration is: " + average_acceleration);
         input.close();

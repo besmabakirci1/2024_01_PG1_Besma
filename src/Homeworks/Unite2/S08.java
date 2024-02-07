@@ -11,3 +11,5 @@ public class S08 {
 
     }
 }
+
+//bunu yanlış hatırlamıyorsak çözdük derste ama bende hala oturmadı.
