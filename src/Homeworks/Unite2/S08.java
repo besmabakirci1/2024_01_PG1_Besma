@@ -6,4 +6,8 @@ package Homeworks.Unite2;
 //Enter the time zone offset to GMT: −5-> "Enter"
 //The current time is 4:50:34
 public class S08 {
+    public static void main(String[] args) {
+        System.out.println();
+
+    }
 }
