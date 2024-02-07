@@ -12,13 +12,13 @@ import java.util.Scanner;
 public class S04 {
     public static void main(String[] args) {
         System.out.println("Please enter a number in pounds: ");
-
         Scanner input = new Scanner(System.in);
+        input.close();
+
         double pound = input.nextDouble();
         double kilogram = pound  /0.454 ;
 
         System.out.println("The total kilogram is : " + kilogram);
-        input.close();
 
     }
 }

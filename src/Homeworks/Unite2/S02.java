@@ -17,12 +17,12 @@ public class S02 {
         double radius = input.nextDouble();
         System.out.println("Please enter the value of length: ");
         double length = input.nextDouble();
+        input.close();
 
         double area = radius * radius * Math.PI;
         double volume = area * length;
 
         System.out.println("Volume: " + volume );
         System.out.println("Area: " + area);
-        input.close();
     }
 }

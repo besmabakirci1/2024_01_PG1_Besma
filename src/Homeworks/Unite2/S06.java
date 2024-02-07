@@ -15,6 +15,7 @@ public class S06 {
         System.out.print("please enter a number btw 0 and 1000 : ");
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
+        input.close();
 
         int digit1 = number % 10;
         number /= 10;
@@ -24,7 +25,5 @@ public class S06 {
         int sum = digit1 + digit2 + digit3;
 
         System.out.println("The sum of the digits is: " + sum);
-        input.close();
-// soru1 : ben %10 yapıp bu işlemi tekrar ettirmek dışında başka bir yöntemle bunu çözemez miydim?
     }
 }

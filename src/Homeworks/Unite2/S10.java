@@ -21,10 +21,10 @@ public class S10 {
         double İnitial_Temperature = input.nextDouble();
         System.out.println("Enter the final temperature: ");
         double Final_Temperature = input.nextDouble();
-
-        double Q = M * (Final_Temperature - İnitial_Temperature) * 4184;
-        System.out.println("The energy needed is " + Q);
         input.close();
 
+        double Q = M * (Final_Temperature - İnitial_Temperature) * 4184;
+
+        System.out.println("The energy needed is " + Q);
     }
 }

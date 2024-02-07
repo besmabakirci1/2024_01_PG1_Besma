@@ -12,13 +12,13 @@ public class S07 {
     public static void main(String[] args) {
         System.out.print("Please enter the minutes that will prompt to years, days and minutes: ");
         Scanner input = new Scanner(System.in);
-
         int minutes = input.nextInt();
+        input.close();
+
         int days = minutes/ (24 * 60) ;
         int years = days/365 ;
         days = days % 365;
 
         System.out.println(minutes + " minutes is approximately " + years + " years and " + days + " days");
-        input.close();
     }
 }
