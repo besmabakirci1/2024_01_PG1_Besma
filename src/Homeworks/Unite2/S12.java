@@ -9,4 +9,7 @@ package Homeworks.Unite2;
 //Enter speed and acceleration: 60 3.5-> "Enter"
 //The minimum runway length for this airplane is 514.286
 public class S12 {
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
