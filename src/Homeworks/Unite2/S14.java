@@ -1,4 +1,7 @@
 package Homeworks.Unite2;
+
+import java.util.Scanner;
+
 // (Health application: computing BMI)
 //Body Mass Index (BMI) is a measure of health on weight.
 //It can be calculated by taking your weight in kilograms and dividing by the square of your height in meters.
@@ -9,4 +12,18 @@ package Homeworks.Unite2;
 //Enter height in inches: 50-> "Enter"
 //BMI is 26.8573
 public class S14 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter the weight in pound: " );
+        double weight_in_pound  = input.nextDouble();
+        System.out.print("Please enter the weight in inches: " );
+        double height_in_inches = input.nextDouble();
+        input.close();
+
+        double kilogram = weight_in_pound * 0.45359237 ;
+        double meter = height_in_inches * 0.0254;
+        double BMI = kilogram / (meter * meter);
+
+        System.out.println("BMI is: " + BMI);
+    }
 }
