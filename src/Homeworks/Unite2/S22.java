@@ -4,5 +4,8 @@ package Homeworks.Unite2;
 //Enter the input as an integer whose last two digits represent the cents.
 //For example, the input 1156 represents 11 dollars and 56 cents.
 public class S22 {
+    public static void main(String[] args) {
 
+        System.out.println();
+    }
 }
