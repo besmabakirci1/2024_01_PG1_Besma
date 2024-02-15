@@ -1,4 +1,4 @@
-package Chapter1;
+package chapter1;
 
 // ShowRuntimeErrors.java: Program contains runtime errors
 public class ShowRuntimeErrors {
