@@ -2,12 +2,12 @@ package homework.unite2;
 
 import java.util.Scanner;
 
-//(Find the number of years)
+// (Find the number of years)
 // Write a program that prompts the user to enter the minutes (e.g., 1 billion),
 // and displays the number of years and days for the minutes.
 // For simplicity, assume a year has 365 days. Here is a sample run:
-//Enter the number of minutes: 1000000000-> "Enter"
-//1000000000 minutes is approximately 1902 years and 214 days
+// Enter the number of minutes: 1000000000-> "Enter"
+// 1000000000 minutes is approximately 1902 years and 214 days
 public class S07 {
     public static void main(String[] args) {
         System.out.print("Please enter the minutes that will prompt to years, days and minutes: ");

@@ -11,4 +11,5 @@ package homework.unite3;
 // Enter the number of days elapsed since today: 31 -> "Enter"
 // Today is Sunday and the future day is Wednesday
 public class S05 {
+
 }

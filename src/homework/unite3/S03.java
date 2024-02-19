@@ -10,4 +10,5 @@ package homework.unite3;
 // Enter a, b, c, d, e, f: 1.0 2.0 2.0 4.0 4.0 5.0 -> "Enter"
 // The equation has no solution
 public class S03 {
+
 }

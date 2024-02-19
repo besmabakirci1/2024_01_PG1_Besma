@@ -19,4 +19,5 @@ package homework.unite3;
 // The equation has no real roots
 
 public class S01 {
+
 }
