@@ -2,7 +2,8 @@ package homework.unite2;
 
 import java.util.Scanner;
 
-// (Physics: acceleration) Average acceleration is defined as the change of velocity
+// (Physics: acceleration)
+// Average acceleration is defined as the change of velocity
 // divided by the time taken to make the change, as shown in the following formula:
 // a = (v1 - v0)/t
 // Write a program that prompts the user to enter the starting velocity v0 in meters/second,
