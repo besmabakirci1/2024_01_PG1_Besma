@@ -27,14 +27,17 @@ public class S03 {
         System.out.print("Please enter the value of f: ");
         double f = input.nextDouble();
         input.close();
-        if ((a * d) - (b * c) == 0){
+        if ((a * d) == (b * c)){
             System.out.println("The equation has no solution." );
         }
-        double x = (e * d - b * f) / (a * d - b * c);
-        double y = (a * f - e * c) / (a * d - b * c);
+        else {
+            double x = (e * d - b * f) / (a * d - b * c);
+            double y = (a * f - e * c) / (a * d - b * c);
 
-        System.out.println("x: " +x);
-        System.out.println("y: " +y);
+            System.out.println("x: " +x);
+            System.out.println("y: " +y);
+        }
+
 
     }
 

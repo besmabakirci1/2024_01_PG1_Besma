@@ -9,5 +9,7 @@ package homework.unite3;
 // BMI is 20.087702275404553
 // Normal
 public class S06 {
-
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }

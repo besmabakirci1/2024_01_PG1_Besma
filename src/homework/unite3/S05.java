@@ -15,8 +15,66 @@ import java.util.Scanner;
 public class S05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter an integer for today’s day of the week: ");
-        double integerForDayOfWeek  = input.nextDouble();
+        System.out.print("Enter today's day (0 for Sunday, 1 for Monday, ..., 6 for Saturday): ");
+        int today = input.nextInt();
+        System.out.print("Enter the number of days elapsed since today: ");
+        int daysElapsed = input.nextInt();
+
+        int futureDay = (today + daysElapsed) % 7;
+        String futureDayString;
+        String todayString;
+
+        switch (today) {
+            case 0 :
+                System.out.print("Today is Sunday ");
+                break;
+            case 1 :
+                System.out.print("Today is Monday ");
+                break;
+            case 2 :
+                System.out.print("Today is Tuesday ");
+                break;
+            case 3:
+                System.out.print("Today is Wednesday ");
+                break;
+            case 4:
+                System.out.print("Today is Thursday ");
+                break;
+            case 5:
+                System.out.print("Today is Friday ");
+                break;
+            case 6:
+                System.out.print("Today is Saturday ");
+                break;
+            default:
+                System.out.print("Invalid day ");
+        }
+
+        switch (futureDay) {
+            case 0:
+                System.out.print("and the future day is Sunday ");
+                break;
+            case 1:
+                System.out.print("and the future day is Monday ");
+                break;
+            case 2:
+                System.out.print("and the future day is Tuesday ");
+                break;
+            case 3:
+                System.out.print("and the future day is Wednesday ");
+                break;
+            case 4:
+                System.out.print("and the future day is Thursday ");
+                break;
+            case 5:
+                System.out.print("and the future day is Friday ");
+                break;
+            case 6:
+                System.out.print("and the future day is Saturday ");
+                break;
+            default:
+                System.out.print("Invalid day ");
+        }
 
     }
 }
