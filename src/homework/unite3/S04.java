@@ -48,6 +48,5 @@ public class S04 {
             System.out.print("December");
         }
         System.out.println(x);
-
     }
 }

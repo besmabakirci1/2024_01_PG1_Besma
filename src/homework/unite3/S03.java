@@ -38,7 +38,6 @@ public class S03 {
             System.out.println("y: " +y);
         }
 
-
     }
 
 }

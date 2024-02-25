@@ -21,8 +21,6 @@ public class S05 {
         int daysElapsed = input.nextInt();
 
         int futureDay = (today + daysElapsed) % 7;
-        String futureDayString;
-        String todayString;
 
         switch (today) {
             case 0 :
