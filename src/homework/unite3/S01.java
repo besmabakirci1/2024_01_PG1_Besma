@@ -48,6 +48,5 @@ public class S01 {
         if (discriminant < 0){
             System.out.println("The equation has no real roots ");
         }
-
     }
 }

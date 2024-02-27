@@ -37,7 +37,5 @@ public class S03 {
             System.out.println("x: " +x);
             System.out.println("y: " +y);
         }
-
     }
-
 }

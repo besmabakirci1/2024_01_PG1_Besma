@@ -9,7 +9,7 @@ public class S04 {
     public static void main(String[] args) {
         Random random = new Random();
 
-        int x = random.nextInt(12)+1;
+        int x = random.nextInt(12) + 1;
 
         if (x == 1){
             System.out.print("January");

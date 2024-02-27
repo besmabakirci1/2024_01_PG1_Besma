@@ -73,6 +73,5 @@ public class S05 {
             default:
                 System.out.print("Invalid day ");
         }
-
     }
 }

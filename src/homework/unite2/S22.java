@@ -5,6 +5,5 @@ package homework.unite2;
 // For example, the input 1156 represents 11 dollars and 56 cents.
 public class S22 {
     public static void main(String[] args) {
-
     }
 }
