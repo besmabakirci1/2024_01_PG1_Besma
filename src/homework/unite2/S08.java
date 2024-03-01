@@ -1,5 +1,6 @@
 package homework.unite2;
 
+import java.util.Date;
 import java.util.Scanner;
 
 // (Current time)
@@ -10,9 +11,7 @@ import java.util.Scanner;
 // The current time is 4:50:34
 public class S08 {
     public static void main(String[] args) {
-        System.out.println();
-
     }
 }
 
-//bunu yanlış hatırlamıyorsak çözdük derste ama bende hala oturmadı.
+
