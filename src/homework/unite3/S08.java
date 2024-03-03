@@ -37,7 +37,7 @@ public class S08{
         System.out.println("The maximum number is: " + maximumNumber);
 
         middleNumber = integer1 + integer2 + integer3 - maximumNumber - minimumNumber;
-        System.out.println("Middle number: " + middleNumber);
+        System.out.println("The middle number is:" + middleNumber);
 
         System.out.println("The integers in non-decreasing order are: " + minimumNumber + ", " + middleNumber + ", " + maximumNumber);
     }
