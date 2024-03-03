@@ -42,6 +42,7 @@ public class S07 {
         if (numberOfQuarters != 0)
             System.out.println(" " + numberOfQuarters + (numberOfQuarters == 1 ? " quarter" : " quarters"));
         if (numberOfDimes != 0)
+        if (numberOfDimes != 0)
             System.out.println(" " + numberOfDimes + (numberOfDimes == 1 ? " dime" : " dimes"));
         if (numberOfNickels != 0)
             System.out.println(" " + numberOfNickels + (numberOfNickels == 1 ? " nickel" : " nickels"));

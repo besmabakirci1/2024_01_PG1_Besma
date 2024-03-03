@@ -17,10 +17,10 @@ public class S06 {
         Scanner input = new Scanner (System.in);
         System.out.print("Enter weight in pounds: ");
         double weight = input.nextDouble();
-        System.out.print("Enter inches: ");
-        double inches = input.nextDouble();
         System.out.print("Enter feet: ");
         double feet = input.nextDouble();
+        System.out.print("Enter inches: ");
+        double inches = input.nextDouble();
 
         final double KILOGRAMS_PER_POUND = 0.45359237;
         final double METERS_PER_INCH = 0.0254;
