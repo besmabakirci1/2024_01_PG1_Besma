@@ -1,4 +1,4 @@
-package homeworks.unite2;
+package homework.unite2;
 
 import java.util.Scanner;
 
