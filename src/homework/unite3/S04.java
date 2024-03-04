@@ -1,5 +1,4 @@
 package homework.unite3;
-
 import java.util.Random;
 
 // (Random month)

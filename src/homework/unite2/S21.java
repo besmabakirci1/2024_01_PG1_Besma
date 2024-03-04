@@ -1,4 +1,5 @@
 package homework.unite2;
+import java.util.Scanner;
 
 // (Financial application: calculate future investment value)
 // Write a program that reads in investment amount, annual interest rate, and number of years,
@@ -11,8 +12,6 @@ package homework.unite2;
 // Enter annual interest rate in percentage: 4.25-> "Enter"
 // Enter number of years: 1-> "Enter"
 // Accumulated value is $1043.92
-import java.util.Scanner;
-
 public class S21 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

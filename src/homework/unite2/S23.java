@@ -1,5 +1,4 @@
 package homework.unite2;
-
 import java.util.Scanner;
 
 // (Cost of driving)

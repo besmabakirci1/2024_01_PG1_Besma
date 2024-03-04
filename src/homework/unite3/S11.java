@@ -1,5 +1,4 @@
 package homework.unite3;
-
 import java.util.Scanner;
 
 // (Find the number of days in a month)

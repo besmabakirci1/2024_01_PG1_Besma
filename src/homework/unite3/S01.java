@@ -1,4 +1,5 @@
 package homework.unite3;
+import java.util.Scanner;
 
 // (Algebra: solve quadratic equations)
 // The two roots of a quadratic equation a * (x^2) + (b * x) + c = 0 can be obtained using the following formula:
@@ -22,7 +23,6 @@ package homework.unite3;
 // Enter a, b, c: 1 2 3 -> "Enter"
 // The equation has no real roots
 
-import java.util.Scanner;
 
 public class S01 {
     public static void main(String[] args) {

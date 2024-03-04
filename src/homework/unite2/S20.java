@@ -1,4 +1,5 @@
 package homework.unite2;
+import java.util.Scanner;
 
 // (Financial application: calculate interest)
 // If you know the balance and the annual percentage interest rate, you can compute the interest on the next monthly payment
@@ -8,9 +9,6 @@ package homework.unite2;
 // Here is a sample run:
 // Enter balance and interest rate (e.g., 3 for 3%): 1000 3.5-> "Enter"
 // The interest is 2.91667
-
-import java.util.Scanner;
-
 public class S20 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -1,5 +1,4 @@
 package homework.unite3;
-
 import java.util.Scanner;
 
 // (Algebra: Solve 2 * 2 linear equations)

@@ -1,5 +1,4 @@
 package homework.unite2;
-
 import java.util.Scanner;
 
 // (Find the number of years)
