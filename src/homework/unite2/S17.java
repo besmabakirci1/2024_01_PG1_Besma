@@ -1,4 +1,5 @@
 package homework.unite2;
+
 // (Science: wind-chill temperature)
 // How cold is it outside? The temperature alone is not enough to provide the answer.
 // Other factors including wind speed, relative humidity, and sunshine play important roles in determining coldness outside.

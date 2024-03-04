@@ -1,4 +1,5 @@
 package homework.unite3;
+
 // (Financials: currency exchange)
 // Write a program that prompts the user to enter the exchange rate from currency in U.S. dollars to Chinese RMB.
 // Prompt the user to enter 0 to convert from U.S. dollars to Chinese RMB and 1 to convert from Chinese RMB and U.S. dollars.

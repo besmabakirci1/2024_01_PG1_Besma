@@ -1,4 +1,5 @@
 package homework.unite4;
+
 // (Hex to binary)
 // Write a program that prompts the user to enter a hex digit and displays its corresponding binary number.
 // Here is a sample run:

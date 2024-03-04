@@ -1,4 +1,5 @@
 package homework.unite2;
+
 // (Print a table)
 // Write a program that displays the following table. Cast floating-point numbers into integers.
 //  a b pow(a, b)
