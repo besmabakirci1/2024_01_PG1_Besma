@@ -9,4 +9,5 @@ package homework.unite3;
 // Write a program that prompts the user to enter the weight of the package and display the shipping cost.
 // If the weight is greater than 50, display a message “the package cannot be shipped.”
 public class S18 {
+
 }

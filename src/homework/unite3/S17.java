@@ -12,4 +12,7 @@ package homework.unite3;
 // scissor (0), rock (1), paper (2): 2-> "Enter"
 // The computer is paper. You are paper too. It is a draw
 public class S17 {
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
