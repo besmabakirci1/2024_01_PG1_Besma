@@ -1,4 +1,5 @@
 package homework.unite3;
+
 // (Cost of shipping)
 // A shipping company uses the following function to calculate the cost (in dollars) of shipping based on the weight of the package (in pounds).
 // c(w) = { 3.5, if 0 < w <= 1
