@@ -12,5 +12,3 @@ public class S16{
         System.out.println("with width 100 and height 200: (" + width + ", " + height + ")");
     }
 }
-
-// kafam burda karıştı *100) -50; yapsaydım ne değişirdi veya *200) -100;

@@ -36,13 +36,12 @@ public class S09 {
         int d9 = input.nextInt();
 
         int d10 = ( (d1 * 1) + (d2 * 2) + (d3 * 3) + (d4 * 4) + (d5 * 5) + (d6 * 6) + (d7 * 7) + (d8 * 8) + (d9 * 9) ) % 11 ;
-        String isbn = String.format("%d%d%d%d%d%d%d%d0%d", d1, d2, d3, d4, d5, d6, d7, d8, d9);
+        String isbn = String.format("%d%d%d%d%d%d%d%d", d1, d2, d3, d4, d5, d6, d7, d8, d9);
         if (d10 == 10 ){
             isbn += "X";
         }else
             isbn += d10;
 
         System.out.println("The ISBN-10 number is " + isbn);
-
     }
 }
