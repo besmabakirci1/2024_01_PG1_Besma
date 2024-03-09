@@ -15,7 +15,6 @@ import java.util.Scanner;
 // The computer is paper. You are paper too. It is a draw
 public class S17 {
     public static void main(String[] args) {
-
         Scanner input = new Scanner (System.in);
         System.out.print("Please choose one of scissor (0), rock (1), paper (2) and enter as number: ");
         int answer = input.nextInt();
