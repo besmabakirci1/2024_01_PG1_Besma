@@ -25,8 +25,32 @@ package homework.unite3;
 // Enter the day of the month: 1-31: 12-> "Enter"
 // Day of the week is Saturday
 
+import java.util.Scanner;
+
 // ( Hint: January and February are counted as 13 and 14 in the formula,
 // so you need to convert the user input 1 to 13 and 2 to 14 for the month and change the year to the previous year.)
 public class S21 {
-    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter the year: ");
+        int year = input.nextInt();
+        System.out.print("Please enter the month of the year: ");
+        int month = input.nextInt();
+        System.out.print("Please enter the day of the month: ");
+        int day = input.nextInt();
+        int q = day;
+        int m = month;
+        int j = year / 100;
+        int k = year % 100;
+        int h = (q + (26 * (m + 1)) / 10 + k + (k / 4) + (j / 4) + 5 * j) % 7;
+
+        String[] dayOfWeekNames = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+        String dayofWeek = dayOfWeekNames[h];
+        System.out.println("Day of the week is " + dayofWeek);
+    }
 }
+
+// Soru 1 : hangi ay olduğunu girmesini istiyoruz ya kullanıcının 4 yerine april yada April yazdığında 4 döndürmesi için ne kullanmam gerekir
+// String[] namesOfMonths = {"January", "February", "March", "April"," May", "June", "July", "August", "September", "October", "November", "December"};
+//        String monthOfYear = namesOfMonths[m];
+//        System.out.print(""+monthOfYear);
