@@ -12,4 +12,5 @@ package homework.unite3;
 //Enter a point with two coordinates: 6 4-> "Enter"
 //Point (6.0, 4.0) is not in the rectangle
 public class S23 {
+
 }

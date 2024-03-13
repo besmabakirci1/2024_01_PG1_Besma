@@ -9,4 +9,5 @@ package homework.unite3;
 // If the equation has no solutions, the two lines are parallel (Figure 3.8c).
 //Write a program that prompts the user to enter four points and displays the intersecting point.
 public class S25 {
+
 }

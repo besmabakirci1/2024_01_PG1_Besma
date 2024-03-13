@@ -7,4 +7,5 @@ package homework.unite3;
 // Here is a sample run of the program:
 //The card you picked is Jack of Hearts
 public class S24 {
+
 }

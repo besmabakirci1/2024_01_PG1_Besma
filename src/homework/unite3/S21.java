@@ -1,4 +1,5 @@
 package homework.unite3;
+import java.util.Scanner;
 
 // (Science: day of the week)
 // Zeller’s congruence is an algorithm developed by Christian Zeller to calculate the day of the week.
@@ -24,9 +25,6 @@ package homework.unite3;
 // Enter month: 1-12: 5-> "Enter"
 // Enter the day of the month: 1-31: 12-> "Enter"
 // Day of the week is Saturday
-
-import java.util.Scanner;
-
 // ( Hint: January and February are counted as 13 and 14 in the formula,
 // so you need to convert the user input 1 to 13 and 2 to 14 for the month and change the year to the previous year.)
 public class S21 {
