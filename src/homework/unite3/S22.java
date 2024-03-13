@@ -25,7 +25,5 @@ public class S22 {
         }else {
             System.out.println("Point (" + x + ", " + y + ") is not in the circle");
         }
-
-
     }
 }
