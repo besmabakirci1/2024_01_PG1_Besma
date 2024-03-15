@@ -16,4 +16,5 @@ package homework.unite2;
 // The wind chill index is -5.56707
 
 public class S17 {
+
 }

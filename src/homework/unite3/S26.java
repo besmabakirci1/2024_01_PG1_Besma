@@ -9,4 +9,7 @@ package homework.unite3;
 // Is 10 divisible by 5 or 6? true
 // Is 10 divisible by 5 or 6, but not both? true
 public class S26 {
+    public static void main(String[] args) {
+        System.out.print("Please enter an integer ");
+    }
 }

@@ -7,4 +7,5 @@ package homework.unite3;
 // The program displays the wind-chill temperature if the input is valid;
 // otherwise, it displays a message indicating whether the temperature and/or wind speed is invalid.
 public class S20 {
+
 }
