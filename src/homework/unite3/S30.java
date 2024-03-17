@@ -6,5 +6,5 @@ package homework.unite3;
 // Enter the time zone offset to GMT: -5-> "Enter"
 // The current time is 4:50:34 AM
 public class S30 {
-    //etkinlik 2.8 in kendisini yapamamıştım o yüzden rezive edemedim:(
+    // etkinlik 2.8 in kendisini yapamamıştım o yüzden rezive edemedim :/
 }
