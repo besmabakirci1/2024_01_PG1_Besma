@@ -1,7 +1,5 @@
 package homework.unite4;
-
 import java.util.Scanner;
-
 import static java.lang.Math.*;
 
 // (Geometry: great circle distance)
