@@ -1,5 +1,7 @@
 package homework.unite4;
 
+import java.util.Scanner;
+
 // (Corner point coordinates)
 // Suppose a pentagon is centered at (0, 0) with one point at the 0 o’clock position, as shown in Figure 4.7c.
 // Write a program that prompts the user to enter the radius of the bounding circle of a pentagon
@@ -13,4 +15,9 @@ package homework.unite4;
 // (-58.7788, -80.9015)
 // (58.7782, -80.902)
 public class S07 {
+    public static void main(String[] args) {
+        System.out.println();
+        Scanner input = new Scanner(System.in);
+
+    }
 }
