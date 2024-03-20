@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class S21 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println();
+        System.out.println("Please enter the SSN (in the format DDD-DD-DDDD): ");
+        String digit = input.nextLine();
 
     }
 }
