@@ -1,5 +1,4 @@
 package homework.unite4;
-
 import java.util.Scanner;
 
 // (Geometry: area of a regular polygon)
