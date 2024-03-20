@@ -23,7 +23,6 @@ import java.util.Scanner;
 // Enter a, b, c: 1 2 3 -> "Enter"
 // The equation has no real roots
 
-
 public class S01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

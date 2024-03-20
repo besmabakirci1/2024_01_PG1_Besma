@@ -21,6 +21,5 @@ public class S19 {
             System.out.println("The perimeter of a triangle is: " + perimeterOfTriangle);
         }
         else System.out.print("The input is invalid");
-
     }
 }

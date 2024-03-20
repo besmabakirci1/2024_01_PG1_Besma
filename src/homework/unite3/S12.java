@@ -24,8 +24,5 @@ public class S12 {
         else {
             System.out.println( number + " is not a palindrome ");
         }
-
-
-
     }
 }

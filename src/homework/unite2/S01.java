@@ -23,7 +23,6 @@ public class S01 {
 
         System.out.println("Celsius: " + Celsius );
         System.out.println("Fahrenheit: " + Fahrenheit);
-
     }
 }
 

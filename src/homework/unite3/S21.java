@@ -47,8 +47,3 @@ public class S21 {
         System.out.println("Day of the week is " + dayofWeek);
     }
 }
-
-// Soru 1 : hangi ay olduğunu girmesini istiyoruz ya kullanıcının 4 yerine april yada April yazdığında 4 döndürmesi için ne kullanmam gerekir
-// String[] namesOfMonths = {"January", "February", "March", "April"," May", "June", "July", "August", "September", "October", "November", "December"};
-//        String monthOfYear = namesOfMonths[m];
-//        System.out.print(""+monthOfYear);

@@ -1,8 +1,6 @@
 package homework.unite4;
 import java.util.Scanner;
 
-import static java.lang.Math.tan;
-
 // (Geometry: area of a pentagon)
 // Write a program that prompts the user to enter the length from the center of a pentagon to a vertex and computes
 // the area of the pentagon, as shown in the following figure.

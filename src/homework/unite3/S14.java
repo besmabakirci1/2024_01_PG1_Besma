@@ -25,6 +25,5 @@ public class S14 {
         else {
             System.out.println("The coin flip resulted in heads.");
         }
-
     }
 }

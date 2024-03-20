@@ -1,4 +1,5 @@
 package homework.unite3;
+import java.util.Scanner;
 
 // (Geometry: point position)
 // Given a directed line from point p0(x0, y0) to p1(x1, y1),
@@ -21,4 +22,8 @@ package homework.unite3;
 // Enter three points for p0, p1, and p2: 3.4 2 6.5 9.5 5 2.5-> "Enter"
 // (5.0, 2.5) is on the right side of the line from (3.4, 2.0) to (6.5, 9.5)
 public class S32 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+    }
 }

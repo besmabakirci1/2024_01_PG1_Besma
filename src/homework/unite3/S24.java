@@ -8,7 +8,6 @@ package homework.unite3;
 // The card you picked is Jack of Hearts
 public class S24 {
     public static void main(String[] args) {
-        //String rank = (" ");
-        //şey diye düşündüm vverilenleri sting yapı tipi ile listeleri önce tanımlamak daha sonra random şekilde seçmesi gerekiyor ama bir yerde kafam karışıyor çözemedim.
+
     }
 }

@@ -31,18 +31,5 @@ public class S25 {
         double x = 2.623901;
         double y = 0.708740;
 
-        // devamında determinant kullanmam gerekiyor ama ben linear cebir bilmiyorum ve onu kullanmadan başka bir ç.y. var mı bilmiyorum kanata kanata denedim yok olmuyor :/ illada çöüm yazacaksak
-        // gptden alınan ç.y.
-        // double determinant = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4);
-        // Check if lines are parallel
-        //if (determinant == 0) {
-        // System.out.println("The lines are parallel. There is no intersecting point.");
-        // } else {
-        // double x = ((x1 * y2 - y1 * x2) * (x3 - x4) - (x1 - x2) * (x3 * y4 - y3 * x4)) / determinant;
-        // double y = ((x1 * y2 - y1 * x2) * (y3 - y4) - (y1 - y2) * (x3 * y4 - y3 * x4)) / determinant;
-        //  System.out.println("The intersecting point is at (" + x + ", " + y + ")");
-        //  }
-
-
     }
 }

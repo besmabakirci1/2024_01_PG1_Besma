@@ -17,6 +17,5 @@ public class S03 {
         double meter= feet / 0.305;
 
         System.out.println("Total meter: " + meter);
-
     }
 }
