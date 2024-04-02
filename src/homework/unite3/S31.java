@@ -1,4 +1,5 @@
 package homework.unite3;
+import java.util.Scanner;
 
 // (Financials: currency exchange)
 // Write a program that prompts the user to enter the exchange rate from currency in U.S. dollars to Chinese RMB.
@@ -20,4 +21,22 @@ package homework.unite3;
 // Enter 0 to convert dollars to RMB and 1 vice versa: 5-> "Enter"
 // Incorrect input
 public class S31 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter 0 to convert USD to RMB, 1 for RMB to USD: ");
+        int exchangeRate = input.nextInt();
+        if (exchangeRate == 0  ){
+            System.out.println("Please enter the amount rate in dollars: ");
+            double rateDollar = input.nextDouble();
+            double totalRBM =  rateDollar * exchangeRate;
+            System.out.println(rateDollar + " is " + totalRBM + "yuan");
+        }else if (exchangeRate == 1){
+            System.out.println("Please enter the amount rate in RMB: ");
+            double rateRBM = input.nextDouble();
+            double totalDollar =  rateRBM / exchangeRate;
+            System.out.println(rateRBM + " is " + totalDollar + "dollar");
+        }else{
+            System.out.println("Incorrect input");
+        }
+    }
 }
