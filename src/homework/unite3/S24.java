@@ -10,14 +10,9 @@ import java.util.Random;
 // The card you picked is Jack of Hearts
 public class S24 {
     public static void main(String[] args) {
-
-
-
-
-
-
-
-
+        // switch case ile yazılabilir
+        // array ile yazılabilir
+        // bide üst düzeyde maping kullanarak
         /*
         Random card = new Random();
         String [] rank  = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
