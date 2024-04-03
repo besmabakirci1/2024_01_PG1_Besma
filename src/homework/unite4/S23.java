@@ -1,4 +1,5 @@
 package homework.unite4;
+import java.util.Scanner;
 
 //(Financial application: payroll)
 // Write a program that reads the following information and prints a payroll statement:
@@ -21,4 +22,38 @@ package homework.unite4;
 // Total Deduction: $28.27
 //Net Pay: $69.22
 public class S23 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter employee's name: ");
+        String employeeName = input.nextLine();
+        System.out.println("Please enter number of hours worked in a week: ");
+        double hoursWorkedPerWeek = input.nextDouble();
+        System.out.println("Please enter hourly pay rate: ");
+        double hourlyPayRate = input.nextDouble();
+        System.out.println("Please enter federal tax withholding rate (e.g., 0.20 for 20%): ");
+        double federalTaxWithholdingRate = input.nextDouble();
+        System.out.println("Please enter state tax withholding rate (e.g., 0.09 for 9%): ");
+        double stateTaxWithholdingRate = input.nextDouble();
+        input.close();
+
+        double grossPay = hoursWorkedPerWeek * hourlyPayRate;
+        double federalWithholding = grossPay * federalTaxWithholdingRate;
+        double stateWithholding = grossPay * stateTaxWithholdingRate;
+        double totalDeduction = federalWithholding + stateWithholding;
+        double netPay = grossPay - totalDeduction;
+
+        System.out.println("\nEmployee Name: " + employeeName);
+        System.out.println("Hours Worked: " + hoursWorkedPerWeek);
+        System.out.printf("Pay Rate: $%.2f\n", hourlyPayRate);
+        System.out.printf("Gross Pay: $%.2f\n", grossPay);
+        System.out.println("Deductions:");
+        System.out.printf("Federal Withholding (%.2f%%): $%.2f\n", federalTaxWithholdingRate * 100, federalWithholding);
+        System.out.printf("State Withholding (%.2f%%): $%.2f\n", stateTaxWithholdingRate * 100, stateWithholding);
+        System.out.printf("Total Deduction: $%.2f\n", totalDeduction);
+        System.out.printf("Net Pay: $%.2f\n", netPay);
+    }
 }
+
+//HatırlatmaNotu: %% bir yüzde işareti yazdırmak için kullanılır. Örnek olarak %.2f%% format specifier'ı, federalTaxWithholdingRate * 100 değerini "%20.00" şeklinde biçimlendirir.
+// Soru ben bu kodu run ettiğimde State Withholding (9.00%): $8.78 , Total Deduction: $28.28 , Net Pay: $69.23 olarak çıkıyor ordaki 0.01 neden farklı oldu output olarak ?
+// bilgisayarların kapasiteleriyle ilgili olduğunu hatırlıyorum doğru mu değilse neden ?
