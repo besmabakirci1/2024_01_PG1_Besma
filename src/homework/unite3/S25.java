@@ -25,7 +25,6 @@ import java.util.Scanner;
 public class S25 {
     public static void main(String[] args) {
         // Prompt the user to enter four points
-
         Scanner input = new Scanner (System.in);
         System.out.print("Please enter the first point on line1 (x1, y1): ");
         double x1 = input.nextDouble();

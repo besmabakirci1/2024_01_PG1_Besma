@@ -23,6 +23,6 @@ public class S05 {
         double Area = (n * Math.pow(s, 2)) / (4 * Math.tan(Math.PI / n));
         System.out.println("The area of the polygon is: " +Area);
         //Not: çıktı farklı oluyor halbuki formulü aynı şekilde yazdım.
-         // The area of the polygon is: 72.69017017488386 çıkıyor 74.69017017488385 olarak çıkması gerekirken
+        // The area of the polygon is: 72.69017017488386 çıkıyor 74.69017017488385 olarak çıkması gerekirken
     }
 }

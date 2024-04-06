@@ -12,4 +12,8 @@ package homework.unite3;
 // Enter three points for p0, p1, and p2:  1 1 2 2 3.5 3.5-> "Enter"
 // (3.5, 3.5) is not on the line segment from (1.0, 1.0) to (2.0, 2.0)
 public class S34 {
+    public static void main(String[] args) {
+
+        System.out.println();
+    }
 }
