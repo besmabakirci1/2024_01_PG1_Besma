@@ -35,6 +35,5 @@ public class S29 {
             System.out.println("");
         }
 
-
     }
 }
