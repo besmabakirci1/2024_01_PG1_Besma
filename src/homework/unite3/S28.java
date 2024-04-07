@@ -62,13 +62,15 @@ public class S28 {
     }
 
 }
-/* if (width1 >= width2 && height1 >= height2 && x1>x2 && y1 >y2 ){
+/* yöntem2
+if (width1 >= width2 && height1 >= height2 && x1>x2 && y1 >y2 ){
             System.out.println("r2 is inside r1");
             } else if (width2 >= width1 && height2 >= height1 && x2>x1 && y2 >y1 ) {
             System.out.println("r2 overlaps r1");
         }else System.out.println("r2 does not overlap r1");*/
 
-/*if	((Math.pow(Math.pow(y2 - y1, 2), .05) + height2 / 2 <= height1 / 2) &&
+/* yöntem3
+if	((Math.pow(Math.pow(y2 - y1, 2), .05) + height2 / 2 <= height1 / 2) &&
                 (Math.pow(Math.pow(x2 - x1, 2), .05) + width2 / 2 <= width1 / 2) &&
                 (height1 / 2 + height2 / 2 <= height1) &&
                 (width1 / 2 + width2 / 2 <= width1))
