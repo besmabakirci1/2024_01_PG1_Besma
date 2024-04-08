@@ -44,7 +44,3 @@ public class S03 {
         return Math.sqrt((s - side1) * (s - side2) * (s - side3) * (s - side4));
     }
 }
-
-// yav arkadaş calculate distance için kütüphane araştırdım buldum yazdım yok hata verdi idea
-// sonra geri kalanı aidan geçirdim ok araştırdm ettim ama yahu 1.si ben neden bunu yazamadım
-// 2.si bunun başka bir ç.y. düşüyorum bulamıyorum buna daha fazla kafa yormam lazım
