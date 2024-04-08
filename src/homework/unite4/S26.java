@@ -5,4 +5,7 @@ package homework.unite4;
 // Read the input as a string such as "11.56". Your program should extract the dollar amount before the decimal point
 // and the cents after the decimal amount using the indexOf and substring methods.
 public class S26 {
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }

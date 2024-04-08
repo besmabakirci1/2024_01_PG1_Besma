@@ -34,6 +34,5 @@ public class S29 {
         if ( Math.abs(circle1Radius - circle2Radius) == 6 ){
             System.out.println("");
         }
-
     }
 }

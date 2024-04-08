@@ -55,6 +55,5 @@ public class S24 {
         }
 
         System.out.println(result);
-
     }
 }

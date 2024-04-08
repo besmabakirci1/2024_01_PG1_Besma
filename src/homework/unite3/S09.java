@@ -7,7 +7,8 @@ import java.util.Scanner;
 // ((d1 * 1) + (d2 * 2) + (d3 * 3) + (d4 * 4) + (d5 * 5) + (d6 * 6) + (d7 * 7) + (d8 * 8) + (d9 * 9) ) % 11
 // If the checksum is 10, the last digit is denoted as X according to the ISBN-10 convention.
 // Write a program that prompts the user to enter the first 9 digits and displays the 10-digit ISBN (including leading zeros).
-// Your program should read the input as an integer. Here are sample runs:
+// Your program should read the input as an integer.
+// Here are sample runs:
 // Enter the first 9 digits of an ISBN as integer: 013601267 -> "Enter"
 // he ISBN-10 number is 0136012671
 // Enter the first 9 digits of an ISBN as integer: 013031997 -> "Enter"
