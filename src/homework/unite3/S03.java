@@ -26,6 +26,7 @@ public class S03 {
         System.out.print("Please enter the value of f: ");
         double f = input.nextDouble();
         input.close();
+
         if ((a * d) == (b * c)){
             System.out.println("The equation has no solution." );
         }

@@ -20,6 +20,7 @@ public class S15 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a letter: ");
         String userInput = input.next();
+
         char letter = userInput.toUpperCase().charAt(0);
         int numericValue = 0;
 

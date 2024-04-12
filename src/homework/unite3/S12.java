@@ -18,6 +18,7 @@ public class S12 {
         int digit1= number / 100 ;
         int remaining = number % 100;
         int digit3 = remaining % 10;
+
         if (digit1 == digit3){
             System.out.println( number + " is a palindrome ");
         }

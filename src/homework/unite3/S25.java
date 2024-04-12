@@ -1,7 +1,7 @@
 package homework.unite3;
 import java.util.Scanner;
 
-//(Geometry: intersecting point ,keşisen nokta,.)
+// (Geometry: intersecting point ,keşisen nokta,.)
 // Two points on line 1 are given as (x1, y1) and (x2, y2) and on line 2 as (x3, y3) and (x4, y4), as shown in Figure 3.8a–b.
 // The intersecting point of the two lines can be found by solving the following linear equation:
 // x * (y1 -y2) - y * (x1 -x2) = x1 * (y1 -y2) - y1 * (x1 -x2)
@@ -21,7 +21,8 @@ import java.util.Scanner;
         double y = (a * f - e * c) / (a * d - b * c);
         System.out.println("x: " +x);
         System.out.println("y: " +y);
-}*/
+    }
+*/
 public class S25 {
     public static void main(String[] args) {
         // Prompt the user to enter four points

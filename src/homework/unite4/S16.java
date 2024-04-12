@@ -6,9 +6,10 @@ import java.util.Random;
 public class S16 {
     public static void main(String[] args) {
         Random random = new Random();
+
         int randomNumber = random.nextInt(26);
         char uppercaseLetter = (char) (randomNumber + 65);
+
         System.out.println(uppercaseLetter);
     }
 }
-///tekrar et lütfen bu soruyu :)

@@ -20,7 +20,9 @@ public class S05 {
         System.out.println("Please enter the sides of a regular polygon: ");
         double s = input.nextDouble();
         input.close();
+
         double Area = (n * Math.pow(s, 2)) / (4 * Math.tan(Math.PI / n));
+
         System.out.println("The area of the polygon is: " +Area);
     }
 }

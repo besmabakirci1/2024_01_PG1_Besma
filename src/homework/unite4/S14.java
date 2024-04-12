@@ -16,7 +16,7 @@ public class S14 {
         String userInput = input.next();
 
         char letterGrade = userInput.toUpperCase().charAt(0);
-        int numericValue = -1 ; // 0 girmek istiyordum ama karışıklık olmasın diye ai bunu önerdi :/
+        int numericValue = -1 ; // 0 girmek istiyordum ama karışıklık olmasın diye :/
 
         if (letterGrade == 'A'||letterGrade == 'B'|| letterGrade == 'C'||letterGrade ==  'D'||letterGrade ==  'F' ){
             switch (letterGrade){

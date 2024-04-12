@@ -19,7 +19,8 @@ public class S19 {
 
         if(edge1_a + edge2_b > edge3_c && edge2_b + edge3_c > edge1_a && edge3_c + edge1_a > edge2_b ){
             System.out.println("The perimeter of a triangle is: " + perimeterOfTriangle);
+        } else {
+            System.out.print("The input is invalid");
         }
-        else System.out.print("The input is invalid");
     }
 }

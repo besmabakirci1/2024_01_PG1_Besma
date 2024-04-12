@@ -36,9 +36,9 @@ public class S17 {
                 case "DEC" , "Dec" , "dec" :
                     days = 31;
                     break;
-                case "Apr" , "APR" , "apr" :
+                case "APR" , "Apr" , "apr" :
                 case "JUN" , "Jun" , "jun" :
-                case "SEP", "Sep", "sep" :
+                case "SEP" , "Sep" , "sep" :
                 case "NOV" , "Nov" , "nov" :
                     days = 30;
                     break;

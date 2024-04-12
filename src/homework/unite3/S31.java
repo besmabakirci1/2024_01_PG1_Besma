@@ -25,6 +25,7 @@ public class S31 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter 0 to convert USD to RMB, 1 for RMB to USD: ");
         int exchangeRate = input.nextInt();
+
         if (exchangeRate == 0  ){
             System.out.println("Please enter the amount rate in dollars: ");
             double rateDollar = input.nextDouble();

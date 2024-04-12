@@ -15,8 +15,10 @@ public class S26 {
         System.out.print("Please enter an integer ");
         int integer = input.nextInt();
         input.close();
+
         boolean divisibleBy5 = integer % 5 == 0;
         boolean divisibleBy6 = integer % 6 == 0;
+
         System.out.println("Is " + integer + " divisible by 5 and 6? " + (divisibleBy5 && divisibleBy6));
         System.out.println("Is " + integer + " divisible by 5 or 6? " + (divisibleBy5 || divisibleBy6));
         System.out.println("Is " + integer + " divisible by 5 or 6, but not both? " + (divisibleBy5 ^ divisibleBy6));

@@ -30,7 +30,7 @@ public class S34 {
 
         if (isOnSegment) {
             System.out.printf("(%1.1f, %1.1f) is on the line segment from (%1.1f, %1.1f) to (%1.1f, %1.1f)\n", x2, y2, x0, y0, x1, y1);
-        } else {
+        }else {
             System.out.printf("(%1.1f, %1.1f) is not on the line segment from (%1.1f, %1.1f) to (%1.1f, %1.1f)\n", x2, y2, x0, y0, x1, y1);
         }
     }

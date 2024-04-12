@@ -36,6 +36,7 @@ public class S21 {
         int month = input.nextInt();
         System.out.print("Please enter the day of the month: ");
         int day = input.nextInt();
+
         int q = day;
         int m = month;
         int j = year / 100;
@@ -44,6 +45,7 @@ public class S21 {
 
         String[] dayOfWeekNames = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
         String dayofWeek = dayOfWeekNames[h];
+
         System.out.println("Day of the week is " + dayofWeek);
     }
 }

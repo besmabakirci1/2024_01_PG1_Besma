@@ -26,8 +26,10 @@ public class S02 {
         double x2 = Math.toRadians(input.nextDouble());
         double y2 = Math.toRadians(input.nextDouble());
         input.close();
+
         double radius = 6371.01;   // Earth's radius in kilometers
         double d = radius * Math.acos(sin(x1) * sin(x2) + cos(x1) * cos(x2) * cos(y1 - y2));
+
         System.out.printf("The distance between the two points is %.2f km\n", d);
     }
 }
