@@ -27,7 +27,7 @@ public class S21 {
                     isDigit(part3.charAt(0)) && isDigit(part3.charAt(1)) &&
                     isDigit(part3.charAt(2)) && isDigit(part3.charAt(3))) {
                 System.out.println(ssn + " is a valid social security number");
-            } else {
+            }else {
                 System.out.println(ssn + " is an invalid social security number");
             }
         }else {

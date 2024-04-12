@@ -55,6 +55,8 @@ public class S18 {
                     break;
             }
             System.out.print(majorName + " " + statusName);
-        }else System.out.println("Invalid input ");
+        }else {
+            System.out.println("Invalid input ");
+        }
     }
 }

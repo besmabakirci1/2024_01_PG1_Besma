@@ -23,6 +23,7 @@ public class S19 {
         }else{
             ISBN += checksum ;
         }
+
         System.out.println("The calculated ISBN: " + ISBN);
     }
 }
