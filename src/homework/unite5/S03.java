@@ -13,10 +13,10 @@ import java.util.Scanner;
 
 public class S03 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter the kilogram amount to conversion kg to pounds: ");
-        int kilogram = input.nextInt();
-        double pound = kilogram * 2.2;
-        System.out.printf("The conversion result is: %.1f" , pound);
+        System.out.println("Kilograms    \t    Pounds");
+        for(int kilogram = 1 ; kilogram <= 199; kilogram +=2 ){
+            double pound = kilogram * 2.2;
+            System.out.printf(" %d          \t     %.1f \n" , kilogram , pound);
+        }
     }
 }
