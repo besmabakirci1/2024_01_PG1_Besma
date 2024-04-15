@@ -32,4 +32,4 @@ public class S08 {
     }
 }
 
-//         double highestScore = Double.NEGATIVE_INFINITY;  bunu anlamadım :/Diğer her şeyi yazdırmıştım ama burda tıkanınca yardım aldım
+// double highestScore = Double.NEGATIVE_INFINITY;  bunu anlamadım :/Diğer her şeyi yazdırmıştım ama burda tıkanınca yardım aldım
