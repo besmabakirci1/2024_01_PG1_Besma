@@ -11,21 +11,19 @@ package homework.unite5;
 
 public class S05 {
     public static void main(String[] args) {
-        System.out.println("Kilograms  \t \t   Pounds  |  \t  Pounds  \t \t   Kilograms");
+        System.out.println("Kilograms   \t \t     Pounds  | Pounds  \t \t     Kilograms");
 
-        while (true)
-        {
-            for (int kilograms = 1; kilograms <= 199; kilograms += 2) {
-                double pound = kilograms * 2.2;
-                System.out.printf("%-3d     \t \t     %.1f   | \n", kilograms, pound);
-            }
+            for (int kilogram = 1; kilogram <= 199; kilogram += 2) {
+                double pound1stTable = kilogram * 2.2;
 
-            for (double pound = 20; pound <= 515; pound += 5) {
-                 double kilograms = pound * 0.4545;
-                System.out.printf("%.1f   \t \t    %-5.2f \n", pound, kilograms);
+                System.out.printf("%-3d     \t    \t     %.1f     |   ", kilogram, pound1stTable);
+
+                double pound2ndTable = 20 + ((kilogram - 1) / 2) * 5;
+                double kilograms = pound2ndTable / 2.2;
+
+                System.out.printf("%-5.2f     \t    \t  %.2f\n", pound2ndTable, kilograms );
             }
-            break;
         }
     }
-}
-// yan yana nasıl yazdıracağımı çözemedim
+
+// not bu pound2nd table formulunu yazarjen kafam çok karıştı.
