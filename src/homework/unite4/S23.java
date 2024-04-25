@@ -27,20 +27,20 @@ public class S23 {
         System.out.println("Please enter employee's name: ");
         String employeeName = input.nextLine();
         System.out.println("Please enter number of hours worked in a week: ");
-        double hoursWorkedPerWeek = input.nextDouble();
+        float hoursWorkedPerWeek = input.nextFloat();
         System.out.println("Please enter hourly pay rate: ");
-        double hourlyPayRate = input.nextDouble();
+        float hourlyPayRate = input.nextFloat();
         System.out.println("Please enter federal tax withholding rate (e.g., 0.20 for 20%): ");
-        double federalTaxWithholdingRate = input.nextDouble();
+        float federalTaxWithholdingRate = input.nextFloat();
         System.out.println("Please enter state tax withholding rate (e.g., 0.09 for 9%): ");
-        double stateTaxWithholdingRate = input.nextDouble();
+        float stateTaxWithholdingRate = input.nextFloat();
         input.close();
 
-        double grossPay = hoursWorkedPerWeek * hourlyPayRate;
-        double federalWithholding = grossPay * federalTaxWithholdingRate;
-        double stateWithholding = grossPay * stateTaxWithholdingRate;
-        double totalDeduction = federalWithholding + stateWithholding;
-        double netPay = grossPay - totalDeduction;
+        float grossPay = (hoursWorkedPerWeek * hourlyPayRate);
+        float federalWithholding = grossPay * federalTaxWithholdingRate;
+        float stateWithholding = grossPay * stateTaxWithholdingRate;
+        float totalDeduction = federalWithholding + stateWithholding;
+        float netPay = grossPay - totalDeduction;
 
         System.out.println("\nEmployee Name: " + employeeName);
         System.out.println("Hours Worked: " + hoursWorkedPerWeek);
@@ -56,4 +56,4 @@ public class S23 {
 
 //HatırlatmaNotu: %% bir yüzde işareti yazdırmak için kullanılır. Örnek olarak %.2f%% format specifier'ı, federalTaxWithholdingRate * 100 değerini "%20.00" şeklinde biçimlendirir.
 // Soru ben bu kodu run ettiğimde State Withholding (9.00%): $8.78 , Total Deduction: $28.28 , Net Pay: $69.23 olarak çıkıyor ordaki 0.01 neden farklı oldu output olarak ?
-// bilgisayarların kapasiteleriyle ilgili olduğunu hatırlıyorum doğru mu değilse neden ?
+// float, big decimal kullanabilirsin ayrıntılı hesaplarda:)

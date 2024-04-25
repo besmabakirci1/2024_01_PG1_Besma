@@ -22,7 +22,6 @@ public class S05 {
         input.close();
 
         double Area = (n * Math.pow(s, 2)) / (4 * Math.tan(Math.PI / n));
-
         System.out.println("The area of the polygon is: " +Area);
     }
 }
