@@ -14,6 +14,7 @@ public class S04 {
         System.out.println("Miles \t Kilometers");
         for (int miles = 1; miles <= 10; miles++) {
             double kilometers = miles * 1.609;
+
             System.out.printf("%-12d%.3f\n", miles, kilometers);
         }
     }

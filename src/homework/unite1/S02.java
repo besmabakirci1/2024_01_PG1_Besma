@@ -9,6 +9,5 @@ public class S02 {
         System.out.println("Welcome to Java");
         System.out.println("Welcome to Java");
         System.out.println("Welcome to Java");
-
     }
 }

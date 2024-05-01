@@ -32,5 +32,15 @@ public class S08 {
     }
 }
 
-// double highestScore = Double.NEGATIVE_INFINITY;  bunu anlamadım :/Diğer her şeyi yazdırmıştım ama burda tıkanınca yardım aldım
-// biz bunu başka nasıl çözeriz ?
+/// double highestScore = Double.NEGATIVE_INFINITY;bunu anlamadım :/Diğer her şeyi yazdırmıştım ama burda tıkanınca yardım aldım
+/// Biz bunu başka nasıl çözeriz ?!
+// Double.NEGATIVE_INFINITY demesniin sebebi şu;
+// kod ne yapıyor, sırayla student score alıyor, bu score büyük mü küçük mü diye bakacak ama bu ilk öğrenci olduğu için
+// elinde karşılaştırabileceği başka student score olmadığo için
+// ben diyo Double.NEGATIVE_INFINITY yani ilk değer olarak en düşük eksi sayı vereyim sonra yeni gelen öğrencilerinkini
+// kolayca hesaplayayım demiş şöyle de yapabilirsin, score minimum 0 olur diyelim
+// sen double highestScore=0 yazsan da olurdu
+// başka bir örnek olarak, 1 den 10 a kadar olan sayıların toplamını yaparken,
+// for döngüsünde toplam = toplam + i; diyoruz ya ama bunu demeden önce int toplam = 0;
+// deyip ilk değeri atıyoruz ki, toplam +i derken 0+1 yapabilelim,
+// aynı mantıktan ortaya çıkıyor, diğer türlü kıyaslıcak veya toplayacak bir değer yok elimizde diye
