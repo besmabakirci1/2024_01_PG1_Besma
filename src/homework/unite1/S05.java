@@ -7,6 +7,10 @@ public class S05 {
         double result1 = (9.5 * 4.5) - (2.5 * 3);
         double result2 = 45.5 - 3.5;
         double result = (result1/result2);
-        System.out.println("Result: " +result);
+        System.out.println("Result: " + result);
     }
 }
+
+
+
+

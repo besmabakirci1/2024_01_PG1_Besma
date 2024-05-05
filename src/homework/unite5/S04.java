@@ -1,5 +1,4 @@
 package homework.unite5;
-import java.util.Scanner;
 
 // (Conversion from miles to kilometers)
 // Write a program that displays the following table (note that 1 mile is 1.609 kilometers):

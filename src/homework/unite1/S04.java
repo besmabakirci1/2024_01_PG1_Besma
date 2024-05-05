@@ -1,6 +1,6 @@
 package homework.unite1;
 
-// (Print a table)
+ //(Print a table)
 // Write a program that displays the following table:
 // a a^2 a^3
 // 1 1 1
