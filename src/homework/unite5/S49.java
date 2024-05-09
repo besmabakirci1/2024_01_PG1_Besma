@@ -6,4 +6,7 @@ package homework.unite5;
 // The number of vowels is 5
 // The number of consonants is 11
 public class S49 {
+    public static void main(String[] args) {
+        
+    }
 }
