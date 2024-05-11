@@ -12,7 +12,18 @@ package homework.unite6;
 // Your program acts as a single player. Here are some sample runs.
 // You rolled 5 + 6 = 11
 // You win
+
 // You rolled 1 + 2 = 3
+// You lose
+
+// You rolled 4 + 4 = 8
+// point is 8
+// You rolled 6 + 2 = 8
+// You win
+
+// You rolled 3 + 2 = 5
+// point is 5
+// You rolled 2 + 5 = 7
 // You lose
 public class S30 {
 }
