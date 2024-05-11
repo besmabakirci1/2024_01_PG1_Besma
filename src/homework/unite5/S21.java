@@ -6,6 +6,7 @@ package homework.unite5;
 // Here is a sample run:
 //Loan Amount: 10000-> "Enter"
 //Number of Years: 5-> "Enter"
+
 //Interest Rate         Monthly Payment         Total Payment
 //5.000%                  188.71                  11322.74
 //5.125%                  189.29                  11357.13

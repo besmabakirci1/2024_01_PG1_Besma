@@ -1,4 +1,5 @@
 package homework.unite5;
+
 // (Count vowels and consonants)
 // Assume letters A, E, I, O, and U as the vowels. Write a program that prompts the user to enter a string
 // and displays the number of vowels and consonants in the string.

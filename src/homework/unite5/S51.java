@@ -1,4 +1,5 @@
 package homework.unite5;
+
 // (Longest common prefix)
 // Write a program that prompts the user to enter two strings and displays the largest common prefix of
 // the two strings.
