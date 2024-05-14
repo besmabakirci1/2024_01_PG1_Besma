@@ -1,6 +1,6 @@
 package homework.unite6;
 
-//(Occurrences of a specified character)
+// (Occurrences of a specified character)
 // Write a method that finds the number of occurrences of a specified character in a string using the following header:
 // public static int count(String str, char a)
 // For example, count("Welcome", 'e') returns 2.

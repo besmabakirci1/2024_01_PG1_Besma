@@ -2,10 +2,10 @@ package homework.unite6;
 
 // (Palindrome integer) Write the methods with the following headers
 
-// // Return the reversal of an integer, i.e., reverse(456) returns 654
+/// Return the reversal of an integer, i.e., reverse(456) returns 654
 // public static int reverse(int number)
 
-// // Return true if number is a palindrome
+/// Return true if number is a palindrome
 // public static boolean isPalindrome(int number)
 
 // Use the reverse method to implement isPalindrome.
