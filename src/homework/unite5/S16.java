@@ -10,12 +10,16 @@ public class S16 {
         System.out.println("Please enter an integer: ");
         int number = scanner.nextInt();
         for( int i = 2 ; i <= number ; i++){
-            while (number % i == 0){
+            while (number % i == 0 && i != number){
                 System.out.print(i + "," + " " );
                 number /= i;
                 if(number % i != 0){
                     break;
                 }
+            }
+            while (number % i == 0 && i == number){
+                System.out.print(i +"." );
+                number /= i;
             }
         }
     }
