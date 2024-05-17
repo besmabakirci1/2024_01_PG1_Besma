@@ -38,4 +38,4 @@ public class S17 {
         }
     }
 
-// kendim yazamadım for kısmını :/
+// kendim yazamadım for kısmını :/ anlamadım ben kendim yazamadım yani
