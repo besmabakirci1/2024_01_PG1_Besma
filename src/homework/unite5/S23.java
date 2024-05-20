@@ -9,4 +9,19 @@ package homework.unite5;
 // Write a program that compares the results of the summation of the preceding series, computing from left to right
 // and from right to left with n = 50000.
 public class S23 {
+    public static void main(String[] args) {
+        double sum = 0.0;
+        System.out.println("from right to left: ");
+        for(int i = 50000 ; i > 0 ; i--){
+            sum += (double) 1 / i;
+        }
+        System.out.println(sum);
+
+        sum = 0.0;
+        System.out.println("from left to right: ");
+        for(int i = 1 ; 50000 >= i ; i++){
+            sum += (double) 1 / i;
+        }
+        System.out.println(sum);
+    }
 }
