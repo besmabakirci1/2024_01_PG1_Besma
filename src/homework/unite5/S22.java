@@ -1,5 +1,7 @@
 package homework.unite5;
 
+import java.util.Scanner;
+
 // (Financial application: loan amortization schedule)
 // The monthly payment for a given loan pays the principal and the interest.
 // The monthly interest is computed by multiplying the monthly interest rate and the balance
@@ -24,7 +26,8 @@ package homework.unite5;
 
 // Note : The balance after the last payment may not be zero. If so, the last payment should be the normal monthly payment plus the final balance.
 // Hint: Write a loop to display the table. Since the monthly payment is the same for each month, it should be computed before the loop.
-// The balance is initially the loan amount. For each iteration in the loop, compute the interest and principal, and update the balance.
+// The balance is initially the loan amount.
+// For each iteration in the loop, compute the interest and principal, and update the balance.
 // The loop may look like this:
 // for (i = 1; i <= numberOfYears * 12; i++) {
 // interest = monthlyInterestRate * balance;
@@ -35,4 +38,23 @@ package homework.unite5;
 //  }
 
 public class S22 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter the loan amount: "); // loan amount == kredi miktarı
+        double loanAmount = scanner.nextDouble();
+        System.out.print("Please enter the number of years: "); // kredi alacağı yıl sayısını girsin
+        int numberOfYear = scanner.nextInt();
+        System.out.println("Please enter the annual interest rate");
+        double annualInterestRate = scanner.nextDouble();
+        double monthlyInterestRate = annualInterestRate / 12 / 100;
+        int totalMonths = numberOfYear * 12;
+
+        double interest, balance = 0, monthlyPayment = 0, principal = 0;
+        for (int i = 0; i < numberOfYear * 12; i++) {
+            interest = monthlyInterestRate * balance;
+            principal = monthlyPayment - interest;
+            balance = balance - principal;
+        }
+    }
 }
+// ANLAMADIM!::::
