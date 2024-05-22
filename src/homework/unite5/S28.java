@@ -8,4 +8,7 @@ package homework.unite5;
 // ...
 // December 1, 2013 is Sunday
 public class S28 {
+    public static void main(String[] args) {
+
+    }
 }
