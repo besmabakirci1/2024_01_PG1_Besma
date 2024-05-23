@@ -23,7 +23,7 @@ import java.util.Scanner;
 // Please enter the year: 2177
 // For the year 2177, take the last two digits: 77, then divide by 12 to get the integer part: result: 19
 // Sum the result with the number that was divided: 19 + 77 = 96
-// Take the mod of 96 with 7 (week days): 96 % 7 = 5
+// Take the mod of 96 with 7 (week days): 96 mod 7 = 5
 // According to the Doomsday century rule, the Doomsday for 2100's special dates is Sunday.
 // Thus, the Doomsday for 2177 is calculated as Sunday + 5 = Friday for those special dates.
 // If the user entered 25/6/2177; we know that 6/6 is Friday, so we count from there to find the day of the week.
