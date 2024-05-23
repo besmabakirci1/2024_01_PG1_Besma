@@ -6,9 +6,9 @@ package homework.unite5;
 // 10-(d1 +3d2 +d3 +3d4 +d5 +3d6 +d7 +3d8 +d9 +3d10 +d11 +3d12) % 10 If the checksum is 10, replace it with 0.
 // Your program should read the input as a string.
 // Here are sample runs:
-//Enter the first 12 digits of an ISBN-13 as a string: 978013213080
-//The ISBN-13 number is 9780132130806
-//Enter the first 12 digits of an ISBN-13 as a string: 978013213079
-//The ISBN-13 number is 9780132130790
+// Enter the first 12 digits of an ISBN-13 as a string: 978013213080
+// The ISBN-13 number is 9780132130806
+// Enter the first 12 digits of an ISBN-13 as a string: 978013213079
+// The ISBN-13 number is 9780132130790
 public class S47 {
 }

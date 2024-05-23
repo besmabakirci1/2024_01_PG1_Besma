@@ -10,7 +10,7 @@ package homework.unite5;
 // and displays the mean and standard deviations of these numbers using the following formula:
 // for formula check the book
 // Enter ten numbers: 1 2 3 4.5 5.6 6 7 8 9 10
-//The mean is 5.61
-//The standard deviation is 2.99794
+// The mean is 5.61
+// The standard deviation is 2.99794
 public class S45 {
 }

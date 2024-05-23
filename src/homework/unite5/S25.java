@@ -1,5 +1,4 @@
 package homework.unite5;
-
 import java.util.Scanner;
 
 // (Compute p)
