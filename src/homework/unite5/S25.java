@@ -17,4 +17,3 @@ public class S25 {
         }
     }
 }
-// anlamadım.
