@@ -1,5 +1,4 @@
 package homework.unite5;
-
 import java.util.Scanner;
 
 // (Financial application: compound value)
@@ -20,11 +19,21 @@ public class S30 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the save amount: ");
         int saveAmount = scanner.nextInt();
-        System.out.print("Please enter the annual interest ");
+        System.out.print("Please enter the annual interest: ");
         double interest = scanner.nextDouble();
+        System.out.print("Please enter the number of months: ");
+        int numberOfMonth = scanner.nextInt();
+
         double interestRateMonthly = interest / 1200;
-        double futureSavingAccount =
+///      double futureSavingAccount = saveAmount * (double) ((Math.pow((1 + interestRateMonthly ),numberOfMonth) - 1 ) / interestRateMonthly);
+///      System.out.println("The account:  " + futureSavingAccount);
 
-
+        double futureSavingAccount = 0;
+        for (int i = 0; i < numberOfMonth; i++) {
+            futureSavingAccount = (futureSavingAccount + saveAmount) * (1 + interestRateMonthly);
+        }
+        System.out.printf("The account balance after %d months is: %.2f\n", numberOfMonth, futureSavingAccount);
     }
 }
+
+/// ben bu şekilde yazdım ve  hesaplamalarda çok küçük bir farklılık oluyor.nedenini anlamadım.
