@@ -32,7 +32,6 @@ public class S34 {
                 countAnswer++;
             }
         }
-
         input.close();
     }
 }
