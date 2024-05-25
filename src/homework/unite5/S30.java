@@ -12,13 +12,12 @@ import java.util.Scanner;
 // Write a program that prompts the user to enter an amount (e.g., 100), the annual interest rate (e.g., 5),
 // and the number of months (e.g., 6) and displays the amount in the savings account after the given month.
 // --------------
-// solution way :
-// future saving amount =
+
 public class S30 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the save amount: ");
-        int saveAmount = scanner.nextInt();
+        double saveAmount = scanner.nextDouble();
         System.out.print("Please enter the annual interest: ");
         double interest = scanner.nextDouble();
         System.out.print("Please enter the number of months: ");

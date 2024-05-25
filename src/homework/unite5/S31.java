@@ -1,4 +1,5 @@
 package homework.unite5;
+import java.util.Scanner;
 
 // (Financial application: compute CD value)
 // Suppose you put $10,000 into a CD with an annual percentage yield of 5.75%.
@@ -14,6 +15,8 @@ package homework.unite5;
 // Enter annual percentage yield: 5.75-> "Enter"
 // Enter maturity period (number of months): 18-> "Enter"
 
+import java.util.Scanner;
+
 // Month     CD Value
 //  1        10047.92
 //  2        10096.06
@@ -21,4 +24,25 @@ package homework.unite5;
 //  17       10846.57
 //  18       10898.54
 public class S31 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter the save amount: ");
+        double saveAmount = scanner.nextDouble();
+
+        System.out.print("Please enter the annual interest: ");
+        double annualInterest = scanner.nextDouble();
+
+        System.out.print("Please enter the number of months: ");
+        int numberOfMonth = scanner.nextInt();
+
+        double interestRateMonthly = annualInterest / 1200;
+        System.out.println("Month\tCD Value");
+
+        double futureSavingAccount = saveAmount;
+
+        for (int month = 1; month <= numberOfMonth; month++) {
+            futureSavingAccount += futureSavingAccount * interestRateMonthly;
+            System.out.printf("%-8d%.2f\n", month, futureSavingAccount);
+        }
+    }
 }
