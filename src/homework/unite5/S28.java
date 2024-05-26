@@ -40,3 +40,4 @@ public class S28 {
     }
 }
 
+// 25 kez denedim olmadı istediğim gibi

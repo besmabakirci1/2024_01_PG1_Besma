@@ -49,3 +49,4 @@ public class S39 {
 
     }
 }
+// 25 kez denedim olmadı birtürlü ai yararlandım en son bir daha çözmekte fayda var.
