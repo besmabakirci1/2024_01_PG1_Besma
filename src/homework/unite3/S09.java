@@ -17,25 +17,9 @@ public class S09 {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         System.out.println("Please enter the first 9 digit of the ISBN as integers");
-        System.out.print("Please enter d1: ");
-        int d1 = input.nextInt();
-        System.out.print("Please enter d2: ");
-        int d2 = input.nextInt();
-        System.out.print("Please enter d3: ");
-        int d3 = input.nextInt();
-        System.out.print("Please enter d4: ");
-        int d4 = input.nextInt();
-        System.out.print("Please enter d5: ");
-        int d5 = input.nextInt();
-        System.out.print("Please enter d6: ");
-        int d6 = input.nextInt();
-        System.out.print("Please enter d7: ");
-        int d7 = input.nextInt();
-        System.out.print("Please enter d8: ");
-        int d8 = input.nextInt();
-        System.out.print("Please enter d9: ");
-        int d9 = input.nextInt();
-
+        int d1 = input.nextInt(), d2 = input.nextInt(), d3 = input.nextInt(),
+                d4 = input.nextInt(), d5 = input.nextInt(), d6 = input.nextInt(),
+                d7 = input.nextInt(), d8 = input.nextInt(), d9 = input.nextInt();
         int d10 = ( (d1 * 1) + (d2 * 2) + (d3 * 3) + (d4 * 4) + (d5 * 5) + (d6 * 6) + (d7 * 7) + (d8 * 8) + (d9 * 9) ) % 11 ;
         String isbn = String.format("%d%d%d%d%d%d%d%d", d1, d2, d3, d4, d5, d6, d7, d8, d9);
 
