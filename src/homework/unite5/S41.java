@@ -16,8 +16,11 @@ public class S41 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter integers: ");
-        String numbers = scanner.nextLine();
-        int max = scanner.nextInt();
+        int max = Integer.MIN_VALUE;
+        while (true){
+            int num = scanner.nextInt();
 
+        }
     }
 }
+
