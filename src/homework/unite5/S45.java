@@ -1,4 +1,5 @@
 package homework.unite5;
+import java.util.Scanner;
 
 // (Statistics: compute mean and standard deviation)
 // In business applications, you are often asked to compute the mean and standard deviation of data.
@@ -13,4 +14,16 @@ package homework.unite5;
 // The mean is 5.61
 // The standard deviation is 2.99794
 public class S45 {
+    public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+        int count = 10;
+        int sum = 0;
+        System.out.print("Please enter ten numbers: ");
+        String number = scanner.next();
+        for (int i = 0; i < count; i++){
+            sum += Integer.parseInt(number);
+        }
+        double mean = sum / count;
+    //    double deviation = ;
+    }
 }

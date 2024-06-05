@@ -10,4 +10,7 @@ package homework.unite6;
 // Use a loop to repeatedly extract and remove the digit until all the digits are extracted.
 // Write a test program that prompts the user to enter an integer and displays the sum of all its digits.
 public class S02 {
+    public static void main(String[] args) {
+
+    }
 }
