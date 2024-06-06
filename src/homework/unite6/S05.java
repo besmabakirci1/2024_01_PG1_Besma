@@ -1,5 +1,4 @@
 package homework.unite6;
-
 import java.util.Scanner;
 
 // (Sort three numbers)
@@ -19,21 +18,25 @@ public class S05 {
         displaySortedNumbers(num1,num2,num3);
     }
     public static void displaySortedNumbers( double num1, double num2, double num3){
-        if (num1 > num2 && num2 > num3){
+        if (num1 > num2 && num2 > num3 || num1 == num2 && num2 > num3){
             System.out.println(num3 + " " + num2 + " " + num1); // 321
         } else if (num2 > num1 && num1 >num3) {
             System.out.println(num3 + " " + num1 + " " + num2); // 312
-        } else if (num3 > num1 && num1 > num2 ) {
+        } else if (num3 > num1 && num1 > num2 || num1 == num3 && num3 > num2) {
             System.out.print(num2 + " " + num1 + " " + num3); // 213
         } else if (num1 > num3 && num3 > num2) {
             System.out.print(num2 + " " + num3 + " " + num1); // 231
-        }else if (num3 > num2 && num2 > num1) {
+        }else if (num3 > num2 && num2 > num1 || num1 == num2 && num2 < num3) {
             System.out.print(num1 + " " + num2 + " " +  num3); // 123
         }else if (num2 > num3 && num3 > num1) {
             System.out.print(num1 + " " + num3 + " " + num2); // 132
+        }else if (num1 == num2 && num2 == num3){
+            System.out.println("They have same value"+ num1 + " " + num2 + " " + num3);
         }
     }
 }
+
+// eşit olma durumları eksik sadece benim yazdığımda
 //        double temp;
 //        if (num1 > num2) { temp = num1; num1 = num2; num2 = temp; }
 //        if (num2 > num3) { temp = num2; num2 = num3; num3 = temp; }
