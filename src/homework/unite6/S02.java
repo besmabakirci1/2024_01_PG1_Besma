@@ -1,4 +1,5 @@
 package homework.unite6;
+import java.util.Scanner;
 
 // (Sum the digits in an integer)
 // Write a method that computes the sum of the digits in an integer.
@@ -11,6 +12,19 @@ package homework.unite6;
 // Write a test program that prompts the user to enter an integer and displays the sum of all its digits.
 public class S02 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter an integer: ");
+        long n = scanner.nextLong();
+        int sum = sumDigits(n);
+        System.out.println("The sum of the digits is: " + sum);
+    }
 
+    public static int sumDigits(long n){
+        int sum = 0;
+        while (n != 0) {
+            sum += n % 10; // Extract the last digit
+            n /= 10; // Remove the last digit
+        }
+        return sum;
     }
 }
