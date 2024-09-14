@@ -11,7 +11,6 @@ import java.util.Scanner;
 // Enter a degree in Celsius: 43-> "Enter"
 // 43 Celsius is 109.4 Fahrenheit
 
-import java.util.Scanner;
 public class S01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

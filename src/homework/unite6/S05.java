@@ -36,11 +36,11 @@ public class S05 {
     }
 }
 
-// eşit olma durumları eksik sadece benim yazdığımda
-//        double temp;
-//        if (num1 > num2) { temp = num1; num1 = num2; num2 = temp; }
-//        if (num2 > num3) { temp = num2; num2 = num3; num3 = temp; }
-//        if (num1 > num2) { temp = num1; num1 = num2; num2 = temp; }
-//
-//        System.out.println(num1 + " " + num2 + " " + num3);
-//BENİM YAZDIĞIM İF ELSE YERİNE BU ÜÇ SATIRLA ÇÖZEBİLECEĞİMİZİ SAVUNUYOR.AI
+/* Alttaki gibi çözülebilir bu çözümü öğrenmekte fayda var.
+        double temp;
+        if (num1 > num2) { temp = num1; num1 = num2; num2 = temp; }
+        if (num2 > num3) { temp = num2; num2 = num3; num3 = temp; }
+        if (num1 > num2) { temp = num1; num1 = num2; num2 = temp; }
+
+        System.out.println(num1 + " " + num2 + " " + num3);
+ */
