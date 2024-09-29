@@ -8,6 +8,10 @@ package homework.unite5;
 //  ...
 //  9            14.481    |   60              37.290
 //  10           16.090    |   65              40.398
+
+/* ~ TR. :
+(Milden kilometreye dönüştürme) Aşağıdaki iki tabloyu yan yana gösteren bir program yazınız.
+ */
 public class S06 {
     public static void main(String[] args) {
         System.out.println("Miles       Kilometers  | Kilometers      Miles");

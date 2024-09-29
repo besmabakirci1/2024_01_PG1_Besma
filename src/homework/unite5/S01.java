@@ -14,6 +14,24 @@ import java.util.Scanner;
 // The average is 1.25
 // Enter an integer, the input ends if it is 0: 0 -> "Enter"
 // No numbers are entered except 0
+
+/*
+ ~ TR. :
+ (Negatif ve pozitif sayıları sayma ve sayıların ortalamasını hesaplama)
+ Kullanıcının istediği kadar tam sayı girebileceği, girilen sayıların kaç tanesi negatif,
+ kaç tanesi pozitif , toplamı ve ortalamasını hesaplayan bir program yazınız.
+ Eğer 0 değeri girilirse program sonlanacaktır.
+ Ortalama değerini gerçel sayı olarak gösteriniz.
+ Örnek akışı inceleyiniz:
+ Bir tam sayı giriniz. 0 girilirse sonlanır: 1   2  -1  3  0
+ Girilen pozitif sayılarin adedi:  3
+ Girilen negatif sayılarin adedi:  1
+ Sayılarin toplamı:  5.0
+ Sayılarin ortalaması: 1.25
+ Bir tam sayı giriniz. 0 girilirse sonlanır: 0
+ 0 hariç hiçbir sayı girilmemistir.
+ */
+
 public class S01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

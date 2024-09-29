@@ -4,6 +4,11 @@ import java.util.Scanner;
 // (Find the two highest scores)
 // Write a program that prompts the user to enter the number of students and each student’s name and score,
 // and finally displays the student with the highest score and the student with the second-highest score.
+/* ~ TR. :
+(En yüksek iki puanı bulma)
+Kullanıcıdan toplam öğrenci sayısını  ve her öğrencinin adı ve puanını alan,
+ bunun ardından en yüksek ve en yüksek ikinci puana sahip öğrencilerin adını ve puanını gösteren bir program yazınız.
+ */
 public class S09 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

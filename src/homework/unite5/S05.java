@@ -9,6 +9,9 @@ package homework.unite5;
 // 197             433.4 |  510           231.82
 // 199             437.8 |  515           234.09
 
+/* ~ TR. :
+(Kilogramdan pound’a ve pound’dan kilograma dönüştürme) Aşağıdaki iki tabloyu yan yana gösteren bir program yazınız.
+ */
 public class S05 {
     public static void main(String[] args) {
         System.out.println("Kilograms   \t \t     Pounds  | Pounds  \t \t     Kilograms");

@@ -5,6 +5,13 @@ import java.util.Scanner;
 // Listing 5.4, SubtractionQuizLoop.java, generates five random subtraction questions.
 // Revise the program to generate ten random addition questions for two integers between 1 and 15.
 // Display the correct count and test time.
+
+// ~ TR. :
+// (Toplama)
+// Madde 5.4 SubtractionQuizLoop.java beş adet rastgele çıkarma sorusu üretmektedir.
+// Programı tekrar düzenleyerek 1 ve 15 tam sayıları arasında,
+// on tane rastgele toplama sorusu oluşturun.
+// Toplam sayıyı ve test zamanını gösterin.
 public class S02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

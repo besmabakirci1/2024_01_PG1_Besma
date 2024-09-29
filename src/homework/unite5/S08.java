@@ -4,7 +4,10 @@ import java.util.Scanner;
 // (Find the highest score)
 // Write a program that prompts the user to enter the number of students and each student’s name and score,
 // and finally displays the name of the student with the highest score.
-
+/* ~ TR. :
+(En yüksek puanı bulma.)
+Kullanıcıdan toplam öğrenci sayısını  ve her öğrencinin adı ve puanını alan, bunun ardından en yüksek puana sahip öğrencinin adını gösteren bir program yazınız.
+ */
 public class S08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
