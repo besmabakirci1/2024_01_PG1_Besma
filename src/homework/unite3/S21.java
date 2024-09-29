@@ -37,10 +37,16 @@ public class S21 {
         System.out.print("Please enter the day of the month: ");
         int day = input.nextInt();
 
+
         int q = day;
         int m = month;
         int j = year / 100;
         int k = year % 100;
+
+        if(month == 1 || month== 2){
+            m =+12;
+            j =-1;
+        }
         int h = (q + (26 * (m + 1)) / 10 + k + (k / 4) + (j / 4) + 5 * j) % 7;
 
         String[] dayOfWeekNames = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};

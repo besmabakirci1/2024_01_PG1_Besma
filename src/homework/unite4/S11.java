@@ -39,7 +39,7 @@ public class S11 {
                     hexValue = "F";
                     break;
                 default:
-                    hexValue = Integer.toString(decimalValue); // For 0-9, decimal and hex values are the same
+                     hexValue = Integer.toString(decimalValue); // For 0-9, decimal and hex values are the same
             }
                 System.out.println("The hex value is " + hexValue);
 
